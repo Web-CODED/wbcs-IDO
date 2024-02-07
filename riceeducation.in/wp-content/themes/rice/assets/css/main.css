@@ -1,0 +1,431 @@
+.headfixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    background: #fff;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.header-top.mobilepdisplay.headfixed {
+    height: 80px;
+    /*padding-top: 13px;*/
+}
+
+.footerlogo img {
+    display: none;
+}
+
+.mt-80 {
+    margin-top: 0px !important;
+}
+
+div#breadcrumb {
+    text-align: center !important;
+    margin-top: 10px !important;
+    font-size: large !important;
+}
+
+#breadcrumb a {
+    color: #ed2629 !important;
+}
+
+.postid-1735 div#breadcrumb span {
+    position: relative;
+}
+
+.postid-1735 div#breadcrumb span:nth-child(2) {
+    display: none;
+}
+
+.postid-1735 div#breadcrumb span:nth-child(1),
+.postid-1735 div#breadcrumb span:nth-child(3) {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.postid-1735 div#breadcrumb span:nth-child(3):before {
+    content: " > ";
+    position: absolute;
+    left: -10px;
+    top: -1px;
+    font-size: 37px;
+}
+
+a.enq-now.btn-primary {
+    padding: 6px 20px;
+    border-radius: 25px;
+    margin: 20px 0 0;
+    display: inline-block;
+    border: 0 !important;
+}
+
+a.enq-now.btn-primary:hover,
+a.read-more.btn-primary {
+    text-decoration: none;
+    border: 0;
+}
+
+body.page-id-7322 #breadcrumb {
+    display: none;
+}
+
+body.page-id-7322 .vc_sep_holder h4 {
+    font-size: 26px;
+}
+
+.facility-all .pic-cover {
+    padding: 30px 10px;
+    text-align: center;
+    background: #e7eaef;
+    position: relative;
+    border-radius: 8px 8px 0 0;
+}
+
+.facility-all .pic-cover img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.facility-all a.read-more.btn-primary {
+    padding: 6px 20px;
+    border-radius: 10px;
+    margin: 0;
+    display: inline-block;
+}
+
+.facility-all .content-cover {
+    padding: 15px 15px 20px;
+    border: 1px solid #ebebeb;
+    border-radius: 0 0 8px 8px;
+}
+
+.facility-all .content-cover h3 {
+    font-size: 26px;
+    color: #ed2629;
+    margin: 0 0 3px;
+    font-weight: 600;
+}
+
+.facility-all .content-cover .designation {
+    font-weight: 700;
+}
+
+.facility-all .content-cover p {
+    color: #000000;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.sub-page-block-title i {
+    color: #ed2629;
+    margin: 0 5px 0 0;
+    display: inline-block;
+}
+
+.blog-list .blog-content-overlay .blog-content .btn-primary span {
+    margin: 0 0 0 15px;
+}
+
+.blog-list .blog-content-overlay .blog-content h3 {
+    color: #ffffff !important;
+}
+
+.current-affairs h4 {
+    padding: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    /*text-align: center;*/
+    background: #ed2629;
+    margin: 0;
+}
+
+.current-affairs h4 a {
+    float: right;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.current-affairs .post-loop-single {
+    background: #f6f6f6;
+    padding: 4px 15px;
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    font-size: 15px;
+}
+
+.current-affairs .post-loop-single a {
+    color: #000000;
+}
+
+.current-affairs .post-loop-single a.pdf-download {
+    float: right;
+}
+
+.current-affairs .post-loop-single a.pdf-download:hover {
+    text-decoration: none;
+}
+
+.contact-details a {
+    color: #ed2629;
+}
+
+.tab-pane .sub-page-block-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-pane .sub-page-block-title a {
+    font-size: 15px;
+    color: #ed2629;
+}
+
+.tab-pane .sub-page-block-title a:hover {
+    text-decoration: underline;
+}
+
+body #courseTabContent ul {
+    display: block;
+    list-style-type: disc;
+    padding-left: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+body #courseTabContent #about ul,
+body #courseTabContent ul.about-detail {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.postid-1735 #menu-header li,
+.page-id-7322 #menu-header li,
+.single-ricefaculty #menu-header li,
+.single-expertspeak #menu-header li {
+    display: none;
+}
+
+.postid-1735 #menu-header li#menu-item-4282,
+.page-id-7322 #menu-header li#menu-item-4282,
+.single-ricefaculty li#menu-item-4282,
+.single-expertspeak li#menu-item-4282 {
+    display: block;
+}
+
+.red-color {
+    color: #ed2629;
+    margin: 0 0 15px;
+}
+
+div.syllabus-accordian .card-body p {
+    font-size: 18px;
+}
+
+#courseTabContent ul li {
+    font-size: 18px;
+}
+
+body #courseTabContent ul.about-detail li {
+    font-size: 14px;
+}
+
+.tabs button.close {
+    border: 0;
+    color: #ffffff !important;
+    margin: 10px 10px 0 0;
+    opacity: 1;
+}
+
+.woocommerce #wppb-login-wrap input.button {
+    background: #ed2629 !important;
+    color: #ffffff !important;
+}
+
+div.subscription-bttn.custom.register {
+    position: absolute;
+    width: 100%;
+    bottom: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.subscription-bttn.custom.register-rice-ias {
+    max-width: 546px;
+    float: none;
+    width: 62%;
+}
+
+div.pic-adjust img {
+    max-width: 70%;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.col {
+    margin-top: 10px;
+    padding-left: 1px;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 5px 21px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text],
+text {
+    width: 100%;
+    padding: 5px 21px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.impace-form input[type=submit] {
+    background-color: #ed2629;
+    width: 39%;
+    color: white;
+    padding: 3px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.impace-form h2 {
+    background-color: #ed2629;
+    text-align: center;
+    width: 111%;
+    font-size: 29px;
+    color: white;
+    padding: 4px 3px;
+    margin: 23px -15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: -32px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.impace-form {
+    background-color: #ccc;
+    margin: 0px 20px !important;
+    padding: 0px 20px !important;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 991px) {
+    div.subscription-bttn.custom.register {
+        bottom: 75px;
+    }
+    div.subscription-bttn.custom.register-rice-ias {
+        max-width: 100%;
+        width: 71%;
+    }
+    label {
+        display: inline-block;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    .col {
+        margin-top: 10px;
+        padding-left: 1px;
+    }
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 5px 21px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type=text],
+    text {
+        width: 100%;
+        padding: 5px 21px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .impace-form input[type=submit] {
+        background-color: #ed2629;
+        width: 39%;
+        color: white;
+        padding: 3px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .impace-form h2 {
+        background-color: #ed2629;
+        text-align: center;
+        width: 111%;
+        font-size: 29px;
+        color: white;
+        padding: 4px 3px;
+        margin: 23px -15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: -32px !important;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .impace-form {}
+}
+
+@media (min-width: 400px) and (max-width:767px) {
+    div.subscription-bttn.custom.register {
+        bottom: 100px;
+    }
+}
+
+@media (min-width: 500px) and (max-width:767px) {
+    div.subscription-bttn.custom.register {
+        bottom: 170px;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1099px) {
+    div.subscription-bttn.custom.register {
+        bottom: 260px;
+    }
+}
+
+@media (min-width: 1101px) and (max-width:1199px) {
+    div.subscription-bttn.custom.register {
+        bottom: 200px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1320px) {
+    div.subscription-bttn.custom.register {
+        bottom: 215px;
+    }
+}
+
+@media (min-width: 1600px) {
+    div.subscription-bttn.custom.register {
+        bottom: 215px;
+    }
+}

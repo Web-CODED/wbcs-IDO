@@ -1,0 +1,55 @@
+nav:not(.mm-menu) {
+    display: none;
+}
+
+.header {
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 44px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 0 0px;
+    margin-top: -40px;
+}
+
+.header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header a {
+    display: block;
+    width: 48px;
+    height: 18px;
+    padding: 11px;
+    margin: 0px;
+    position: relative;
+    top: 10px;
+    left: 0;
+}
+
+.header a:before,
+.header a:after {
+    content: '';
+    display: block;
+    background: #157b58;
+    height: 2px;
+}
+
+.header a span {
+    background: #157b58;
+    display: block;
+    height: 2px;
+    margin: 6px 0;
+}
+
+.mm-menu_offcanvas {
+    width: 240px !important;
+    min-width: 240px !important;
+    max-width: 440px !important;
+}

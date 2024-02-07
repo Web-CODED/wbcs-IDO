@@ -1,0 +1,664 @@
+.desktopdisplay {
+    display: block
+}
+
+.mobilepdisplay {
+    display: none
+}
+
+@media only screen and (min-width:1480px) and (max-width:1920px) {
+    body {
+        font-size: 20px;
+        line-height: 34px
+    }
+    h2 {
+        font-size: 2.7rem
+    }
+    .banner-heading {
+        font-size: 46px;
+        line-height: 80px;
+    }
+    .container,
+    .sub-container {
+        width: 90% !important;
+        max-width: 90% !important
+    }
+    #cssmenu>ul>li>a {
+        font-size: 22px
+    }
+    #cssmenu ul ul {
+        min-width: 250px
+    }
+    #cssmenu>ul>li.has-sub>a::after {
+        width: 10px;
+        height: 10px;
+        top: 33px
+    }
+    #cssmenu ul ul li a {
+        font-size: 18px
+    }
+    .popular-courses li {
+        font-size: 18px
+    }
+    .success-stories .success-content {
+        bottom: 0
+    }
+    .success-stories .success-content h3 {
+        font-size: 52px
+    }
+    .counter-box h4 {
+        font-size: 20px
+    }
+    .popular-tab-category {
+        width: 1180px
+    }
+    .popular-tab-category .tabs-block .nav-tabs .nav-link {
+        width: 220px;
+        font-size: 22px
+    }
+    .subcatlisting li {
+        width: 220px;
+        font-size: 14px
+    }
+    .app-text h2 {
+        font-size: 50px;
+        line-height: 60px
+    }
+    .testimonialslider .author-info,
+    .testimonialslider .content-testimonial {
+        font-size: 20px;
+        line-height: 38px
+    }
+    .footer h3 {
+        font-size: 26px
+    }
+    .contactdetails,
+    .footer .widget_nav_menu ul.menu li a {
+        font-size: 19px;
+        line-height: 32px
+    }
+    .footerlogo img {
+        width: 100%
+    }
+    #footermenu ul li,
+    .copyright {
+        font-size: 20px
+    }
+    .testimonial-button a {
+        margin-right: 10px
+    }
+    .slick-dots li button::before {
+        color: #ccc
+    }
+    .slick-dots li.slick-active button::before {
+        color: #ed2629 !important
+    }
+    .single-course-content .video .video-content h4 {
+        font-size: 24px;
+        line-height: 34px
+    }
+    .single-course-content .video .video-content h5 {
+        font-size: 19px;
+        line-height: 28px
+    }
+    .single-course-content h1 {
+        font-size: 30px;
+        line-height: 42px
+    }
+    .single-course-content .meta {
+        font-size: 30px;
+        line-height: 42px
+    }
+    .single-course-content .other-meta .batch-meta h5 {
+        font-size: 19px
+    }
+    .single-course-content .other-meta .batch-meta p {
+        font-size: 16px
+    }
+}
+
+@media only screen and (max-width:1239px) {
+    .container,
+    .header-container {
+        width: 100% !important;
+        max-width: 100% !important
+    }
+    .applinkmoremargin {
+        padding-left: 0
+    }
+    h1 {
+        font-size: 22px;
+        line-height: 34px
+    }
+    h2 {
+        font-size: 18px;
+        line-height: 26px
+    }
+    h3 {
+        font-size: 16px;
+        line-height: 24px
+    }
+    h4 {
+        font-size: 14px;
+        line-height: 18px
+    }
+    body {
+        font-size: 12px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .desktopdisplay {
+        display: none
+    }
+    .mobilepdisplay {
+        display: block
+    }
+    body {
+        overflow-x: hidden
+    }
+    .m-p-20 {
+        padding: 20px !important
+    }
+    .m-mt-0 {
+        margin-top: 0 !important
+    }
+    body {
+        font-size: 14px
+    }
+    .mobmenu i {
+        font-size: 30px;
+        color: #f04a51
+    }
+    .banner-box {
+        padding-left: 0 !important
+    }
+    .banner-heading {
+        font-size: 26px;
+        line-height: 36px
+    }
+    .popular-courses li {
+        font-size: 12px
+    }
+    .popular-courses li a {
+        padding: 4px 15px
+    }
+    .headerbck2 {
+        background: 0 0;
+        padding-top: 20px
+    }
+    .banner-block {
+        background: 0 0
+    }
+    .sec-block-bck {
+        background: 0 0
+    }
+    .sec-block-bck.vc_custom_1622468252463 {
+        margin: 0 !important;
+        padding: 20px !important
+    }
+    .popular-tab-category {
+        width: 100%
+    }
+    .popular-tab-category .tabs-block .nav-tabs .nav-link {
+        width: 100%;
+        margin-bottom: 10px
+    }
+    .subcatlisting li {
+        width: 100%;
+        margin-bottom: 10px
+    }
+    .success-stories .success-content {
+        bottom: 0
+    }
+    .success-stories .success-content h3 {
+        font-size: 22px
+    }
+    .success-stories .success-content h5 {
+        font-size: 16px
+    }
+    .m-p-20.vc_custom_1624374752782 {
+        padding: 0 !important;
+        margin-bottom: 20px !important
+    }
+    .bck-counter {
+        width: 300px !important;
+        float: none;
+        margin: 0 auto;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 20px !important
+    }
+    .bck-app.vc_custom_1622968196190 {
+        margin-top: 0 !important
+    }
+    .app-text {
+        padding: 20px !important;
+        font-size: 14px !important;
+        line-height: 24px !important
+    }
+    .app-text h2 {
+        font-size: 20px;
+        line-height: 30px
+    }
+    .bck-testimonials.vc_custom_1622468625922 {
+        margin: 0 !important
+    }
+    .btn-primary {
+        font-size: 14px !important
+    }
+    .videoslider .slick-next,
+    .videoslider .slick-prev {
+        width: 30px;
+        height: 30px
+    }
+    .slick-prev {
+        left: -5px
+    }
+    .slick-next {
+        right: -5px
+    }
+    .footer .textwidget .pl-0 {
+        padding-left: 15px !important
+    }
+    .m-pb-40 {
+        padding-bottom: 40px
+    }
+    .single-course-content .video .video-content h4 {
+        font-size: 14px;
+        line-height: 24px
+    }
+    .shadow-box.p-30 {
+        padding: 15px !important
+    }
+    .single-course-content .meta,
+    .single-course-content h1 {
+        font-size: 16px;
+        line-height: 26px
+    }
+    .single-course-content .other-meta .batch-meta h5 {
+        font-size: 14px;
+        line-height: 24px
+    }
+    .single-course-content .btn-block a {
+        width: 100%
+    }
+    #courseTabContent ul {
+        display: block
+    }
+    .help-section {
+        padding: 20px
+    }
+    .help-section h2 {
+        font-size: 18px;
+        margin: 10px 0
+    }
+    .help-section h4 {
+        font-size: 14px;
+        margin-bottom: 10px
+    }
+    .exam-content-heading,
+    .group-course-grid .group-couse-title {
+        font-size: 24px;
+        line-height: 34px
+    }
+    .exam-content-subheading,
+    .exam-links {
+        font-size: 16px;
+        line-height: 26px
+    }
+    .product-group-heading,
+    .title-advantage {
+        font-size: 24px;
+        line-height: 34px
+    }
+    .advantage-block li {
+        width: 100%
+    }
+    .contact-form h2,
+    .course-banner .header-content h1,
+    .page-title-location {
+        font-size: 24px;
+        line-height: 34px
+    }
+    .page-title-location:after,
+    .page-title-location:before {
+        height: 0
+    }
+    .course-banner {
+        background-size: cover;
+        height: 100px
+    }
+    .course-tabs-block {
+        margin-top: 20px
+    }
+    .course-tabs-block .nav-tabs {
+        margin-left: 0
+    }
+    .course-tabs-block .nav-tabs .nav-link {
+        font-size: 14px
+    }
+    .filter-button {
+        width: auto
+    }
+    .faculty-subject span {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .faculty-subject span::after,
+    .faculty-subject span::before {
+        width: 0
+    }
+    .facultyslider .faculty-content {
+        width: 250px
+    }
+    .facultyslider {
+        margin-left: 10px;
+        margin-right: 10px
+    }
+    .new-wht {
+        color: #fff;
+        text-decoration: none;
+        background-color: #4FCE5D;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font-size: 34px;
+        z-index: 2;
+        border-radius: 9px;
+        padding: 5px;
+    }
+    label {
+        display: inline-block;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    .col {
+        margin-top: 10px;
+        padding-left: 1px;
+    }
+    input[type=text],
+    select {
+        width: 130%;
+        padding: 5px 21px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type=text],
+    text {
+        width: 100%;
+        padding: 5px 21px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .impace-form input[type=submit] {
+        background-color: #ed2629;
+        width: 39%;
+        color: white;
+        padding: 3px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .impace-form h2 {
+        background-color: #ed2629;
+        text-align: center;
+        width: 111%;
+        font-size: 29px;
+        color: white;
+        padding: 4px 3px;
+        margin: 23px -15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: -32px !important;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .impace-form {
+        background-color: #ccc;
+        margin: 0px 0px !important;
+        padding: 0px 20px !important;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .smalldivicesdisplay {
+        display: block
+    }
+    .pricing-grid {
+        display: none
+    }
+    .logo {
+        width: 120px;
+        float: none;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 0
+    }
+    .logo img {
+        max-width: 160%;
+        margin-top: -19px;
+    }
+    .width50 {
+        width: 100%
+    }
+    .buttondivslider {
+        margin-top: 0
+    }
+    .margintopmob30px {
+        margin-top: 30px !important
+    }
+    .top-text h2 {
+        font-size: 34px;
+        line-height: 48px
+    }
+    .top-text h4 {
+        font-size: 30px;
+        line-height: 44px
+    }
+    .arrowimage {
+        display: none
+    }
+    .contact-form-home .wpcf7-list-item-label {
+        font-size: 12px
+    }
+    .btn-primary {
+        font-size: 18px
+    }
+    .single-element-heading {
+        font-size: 22px
+    }
+    .testimonialblock {
+        margin-bottom: 20px !important
+    }
+    .bollyday-btn {
+        width: 90%;
+        font-size: 16px
+    }
+    .heading-second {
+        font-size: 22px
+    }
+    .faq-container .faqheading {
+        font-size: 22px
+    }
+    .faq-container .faqquestion {
+        width: 100%
+    }
+    .faq-container {
+        padding: 0 30px !important
+    }
+    .questionblock {
+        font-size: 14px
+    }
+    .footer-text {
+        text-align: left !important;
+        font-size: 14px !important
+    }
+    .testimonialblock {
+        margin: 0 auto
+    }
+    .single-element-heading {
+        text-align: center !important;
+        line-height: 36px !important
+    }
+    .mobmr-0 {
+        margin-right: 0
+    }
+    .header-top h2 {
+        font-size: 12px !important;
+        line-height: 18px !important
+    }
+    .block-header,
+    .hometopelemnt h1 {
+        font-size: 16px;
+        line-height: 24px !important
+    }
+    .homespboxspeicial {
+        width: 100%
+    }
+    .footer-title,
+    .sphomebox-title {
+        font-size: 16px;
+        line-height: 24px !important
+    }
+    .footer-sub-title {
+        font-size: 14px;
+        line-height: 20px !important
+    }
+    .footerinformation li {
+        font-size: 14px
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .dispalysm {
+        display: block
+    }
+    .logo {
+        width: 200px;
+        float: none;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 0
+    }
+    .logo img {
+        width: 100%
+    }
+    .socialmob {
+        float: right;
+        margin-right: 20px
+    }
+    .top-text h2 {
+        font-size: 36px;
+        line-height: 46px
+    }
+    .top-text h4 {
+        font-size: 28px;
+        line-height: 40px
+    }
+    .arrowimage {
+        display: none
+    }
+    .contact-form-home .wpcf7-list-item-label {
+        font-size: 16px
+    }
+    .btn-primary {
+        font-size: 22px
+    }
+    .single-element-heading {
+        font-size: 32px;
+        line-height: 46px
+    }
+    .testimonialblock {
+        width: 100%;
+        margin-bottom: 20px !important
+    }
+    .heading-second {
+        font-size: 28px;
+        line-height: 42px
+    }
+    .faq-container .faqheading {
+        font-size: 28px
+    }
+    .faq-container .faqquestion {
+        width: 100%
+    }
+    .faq-container {
+        padding: 0 30px !important
+    }
+    .copyright {
+        text-align: center;
+        font-size: 18px
+    }
+    .footer-text {
+        text-align: center !important
+    }
+    .single-element-heading {
+        text-align: center !important
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1239px) {
+    h4 {
+        line-height: 28px
+    }
+    .logo {
+        width: 491px;
+        float: none;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+    .logo img {
+        width: 100%
+    }
+    .footerlogo {
+        width: 100px
+    }
+    .footerlogo img {
+        width: 100%;
+        height: auto
+    }
+    .top-text h2 {
+        font-size: 28px;
+        line-height: 42px
+    }
+    .top-text h4 {
+        font-size: 24px
+    }
+    .single-element-heading {
+        font-size: 34px;
+        line-height: 44px
+    }
+    .heading-second {
+        font-size: 24px;
+        line-height: 34px
+    }
+    .faq-container .faqheading {
+        font-size: 28px
+    }
+    .faq-container .faqquestion {
+        width: 100%
+    }
+    .faq-container {
+        padding: 0 30px !important
+    }
+    .copyright {
+        font-size: 16px
+    }
+    .footer-text {
+        font-size: 16px
+    }
+}
